@@ -1,0 +1,18 @@
+main [data-testid="sidebarColumn"] {
+  visibility: hidden;
+  width: 1px;
+}
+
+main [data-testid="primaryColumn"] {
+  width: 100%;
+  max-width: none;
+}
+
+header {
+  visibility: hidden;
+  width: 1px;
+}
+
+.r-1ye8kvj {
+  max-width: none !important;
+}

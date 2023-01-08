@@ -8,9 +8,14 @@ main [data-testid="primaryColumn"] {
   max-width: none;
 }
 
-header {
+header [data-testid="AppTabBar_Explore_Link"],
+header [aria-label="ブックマーク"],
+header [aria-label="リスト"],
+header [data-testid="AppTabBar_Profile_Link"],
+header [data-testid="AppTabBar_More_Menu"],
+header [data-testid="SideNav_NewTweet_Button"],
+header [data-testid="SideNav_AccountSwitcher_Button"] {
   visibility: hidden;
-  width: 1px;
 }
 
 .r-1ye8kvj {
